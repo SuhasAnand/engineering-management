@@ -9,6 +9,7 @@
 - [What is engineering management?](#what-is-engineering-management)
 - [General management resources](#general-management-resources)
   - [Articles](#articles)
+  - [Tools](#tools)
 - [Engineering Management Resources](#engineering-management-resources)
   - [1-1](#1-1)
   - [Antipatterns](#antipatterns)
@@ -54,6 +55,7 @@
   - [Team culture](#team-culture)
   - [Scaling an organization](#scaling-an-organization)
   - [Strategy](#strategy)
+  - [Training](#training)
   - [Work ethics & work/life balance](#work-ethics--worklife-balance)
   - [Writing](#writing)
 - [Movies](#movies)
@@ -81,7 +83,7 @@ There are numerous cheesy management books and this is not one of them. The narr
 You can find a short summary in video [here](https://www.youtube.com/watch?v=psAXMqxwol8) 🎞.
 
 ## Other books
-
+* [Managing Humans: Biting and Humorous Tales of a Software Engineering Manager](https://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/1484221575) 📖: "Read hilarious stories with serious lessons that Michael Lopp extracts from his varied and sometimes bizarre experiences as a manager at Apple, Pinterest, Palantir, Netscape, Symantec, Slack, and Borland. Many of the stories first appeared in primitive form in Lopp’s perennially popular blog, Rands in Repose."
 * [The Advantage, Enhanced Edition: Why Organizational Health Trumps Everything Else In Business](http://www.amazon.com/gp/product/B006ORWT3Y/ref=dp-kindle-redirect?ie=UTF8&btkr=1) 📖.
 * Oren Ellenbogen, [Leading Snowflakes: the Engineering Manager Handbook](http://leadingsnowflakes.com/) 📖: some truly great content and concrete ideas to move from maker to manager mode, code reviewing your management decisions, delegating tasks without losing quality or visibility.
 * Adam Grant, [Give and Take: Why Helping Others Drives Our Success](https://www.amazon.com/dp/B00AFPTSI0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) 📖: "This gem is a joy to read, and it shatters the myth that greed is the path to success.", Robert Sutton.
@@ -118,6 +120,10 @@ Here are some generic resources:
 * [44 engineering management lessons](http://www.defmacro.org/2014/10/03/engman.html) from the cofounder of RethinkDB. Very high-level, a pretty good summary.
 * [21 management things I learned at Imgur](https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf)
 * [The Rands Test](http://randsinrepose.com/archives/the-rands-test/), Rands in Repose. The equivalent of [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) for management.
+
+## Tools
+
+* [devtomanager.com](https://devtomanager.com/): first-hand advice from seasoned experts
 
 # Engineering Management Resources
 
@@ -244,6 +250,7 @@ Cognitive biases don't only apply to hiring... They can impact performance revie
 * [Engineering Management - Hiring](http://algeri-wong.com/yishan/engineering-management-hiring.html) explains why hiring should be your top priority.
 * [When we only hire the best means we only hire the trendiest](http://danluu.com/programmer-moneyball/)
 * [How to Hire](https://hbr.org/2018/01/how-to-hire), Patty McCord (built HR function at Netflix).
+* [Trouble hiring senior engineers? It's probably you](https://hiringengineersbook.com/post/trouble-hiring/).
 
 ### Hiring: diversity and bias
 
@@ -406,9 +413,10 @@ See my [engineering-management section about problem solving](https://github.com
 * [How we structure our work and teams at Basecamp](https://m.signalvnoise.com/how-we-set-up-our-work-cbce3d3d9cae#.jjb8slcxg)
 * [Will your project be a success? Find out in five minutes.](https://www.projectsmart.co.uk/health-check/project-question-answer.php)
 * Project Smart, [Project management tools](https://www.projectsmart.co.uk/tools.php)
-* [How should deadlines be used in software engineering?](https://keen.io//blog/143850394061/how-should-deadlines-be-used-in-software)
+* [How should deadlines be used in software engineering?](https://blog.keen.io/how-should-deadlines-be-used-in-software-engineering/)
 * [My 20-Year Experience of Software Development Methodologies](https://zwischenzugs.wordpress.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/): includes a great poster about different project management methodologies.
 * [JIRA is an antipattern](https://techcrunch.com/2018/12/09/jira-is-an-antipattern/), Jon Evans.
+* [Agile Lite: Agile without all the burnout](https://github.com/davebs/AgileLite)
 
 ## Release management
 
@@ -470,6 +478,13 @@ Shameless plug here, two presentations I contributed to:
 * [Can Do Vs Must Do](http://avc.com/2017/05/can-do-vs-must-do/) , AVC. "Doing a startup is like playing a video game. Each level requires you to master one thing and once you do that, you level up and then there is a new thing to master."
 * "Waterline principle" from Bill Gore: "Think of being on a ship, and imagine that any decision gone bad will blow a hole in the side of the ship. If you blow a hole above the waterline (where the ship won’t take on water and possibly sink), you can patch the hole, learn from the experience, and sail on. But if you blow a hole below the waterline, you can find yourself facing gushers of water pouring in, pulling you toward the ocean floor. And if it’s a big enough hole, you might go down really fast, just like some of the financial firm catastrophes of 2008. To be clear, great enterprises do make big bets, but they avoid big bets that could blow holes below the waterline.", How We Might Fall.
 
+## Training
+
+* [Great developers are raised, not hired](https://sizovs.net/2019/04/10/the-best-developers-are-raised-not-hired/)
+	* Take some money, energy, time that you spend on recruiting and invest it in teaching your best developers mentoring skills.
+	* Adjust your interview process and give a chance to candidates that are not good enough yet, but are eager to learn and have a growth mindset.
+	* Relax “hard requirements” in your job ads to avoid filtering out impostors.
+
 ## Work ethics & work/life balance
 
 * [The Virtues of Laziness and Impatience](http://www.elidedbranches.com/2016/06/the-virtues-of-laziness-and-impatience.html): "there are two areas I encourage you to practice showing, right now: figuring out what’s important, and going home."
@@ -481,9 +496,10 @@ Shameless plug here, two presentations I contributed to:
 
 * [The 7 Emails You Need to Know How to Write](http://unreasonable.is/the-7-emails-you-need-to-know-how-to-write/)
 * [The Inverted Pyramid](https://en.wikipedia.org/wiki/Inverted_pyramid) or [BLUF (bottom line up front)](https://en.wikipedia.org/wiki/BLUF_(communication)) (Wikipedia): a method to prioritize and structure information in a text.
-* [How to say you’re sorry](https://m.signalvnoise.com/how-to-say-youre-sorry-1c3477c33c89#.7xxja07ae), Jason Fried (Founder & CEO Bootcamp)
+* [How to say you’re sorry](https://m.signalvnoise.com/how-to-say-youre-sorry-1c3477c33c89#.7xxja07ae), Jason Fried (Founder & CEO Basecamp)
 * [How To Write With Style](http://www.novelr.com/2008/08/16/vonnegut-how-to-write-with-style), Kurt Vonnegut.
 * [A blogging style guide](https://robertheaton.com/2018/12/06/a-blogging-style-guide/)
+* [How Jeff Bezos Turned Narrative into Amazon's Competitive Advantage](https://slab.com/blog/jeff-bezos-writing-management-strategy/)
 
 # Movies
 
